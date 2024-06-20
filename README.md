@@ -1,5 +1,5 @@
-Helm GitHub Action
-==================
+Helm Command GitHub Action
+==========================
 
 This action is a simple wrapper for Helm using the `alpine/helm` Docker image.
 

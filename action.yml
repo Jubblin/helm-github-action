@@ -1,4 +1,4 @@
-name: Helm Action
+name: Helm Command
 description: Run Helm commands using the alpine/helm Docker image
 branding:
   icon: package
