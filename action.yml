@@ -1,0 +1,26 @@
+name: Helm Action
+description: Run Helm commands using the alpine/helm Docker image
+branding:
+  icon: package
+  color: blue
+runs:
+  using: docker
+  image: Dockerfile
+inputs:
+  version:
+    description: The version of Helm to use
+    required: true
+    default: '3.15.2'
+  command:
+    description: The Helm command to run
+    required: true
+    default: version
+  args:
+    description: Arguments to pass to the Helm command
+    required: false
+  flags:
+    description: Flags to pass to the Helm command
+    required: false
+outputs:
+  output:
+    description: The output from the Helm command
